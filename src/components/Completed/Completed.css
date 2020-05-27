@@ -1,0 +1,49 @@
+.completed{
+    background-color:#a4b0be ;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: -104.3%;
+    left: 50%;
+}
+
+#taskprint{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 8rem;
+    left: auto;
+    left: auto;   
+    width:80%;
+    height: 70%; 
+    margin-left: 3em;
+    overflow-y: scroll;
+}
+#taskprint button{
+    background-color: #FFC312;
+    border: none;
+    margin-bottom: 0.2em;
+    font-size: 130%;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.trash{
+    float: left;
+    margin-right: 7px;
+    transition: 0.2s;
+}
+
+.trash:hover{
+    float: left;
+    transform: scale(1.5);
+    color: red;
+    cursor: pointer;
+}
+
+.header1{
+    position: relative;
+    top: 8%;
+    left: 25%;
+}

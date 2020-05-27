@@ -1,0 +1,55 @@
+.nav{
+    background-color: #6c5ce7;
+    width: 100vw;
+    height: 60px;
+    box-shadow:0px 2px 4px #2c3e50;
+    z-index: 10;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.nav a{
+    background-color: #a29bfe;
+    color: white;
+    padding: 10px;
+    font-size: 120%;
+    text-decoration: none;
+    float:right;
+    position: relative;
+    top: 7px;
+    margin-right: 1.2em;
+    width: 100px;
+    text-align: center;
+    font-weight: 450;
+    transition: 0.3s;
+}
+
+.nav a:hover{
+    transform: translate(12);
+    background-color: white;
+    color: #837aff;
+
+}
+
+.loadButton{
+    text-decoration: none;
+    float:right;
+    position: relative;
+    top: 32px;
+    margin-right: 1.2em;
+    width: 100px;
+    text-align: center;
+    font-weight: 450;
+}
+
+.fullname{
+    color: white;
+    font-weight: 400;
+    font-size: 130%;
+    clear: both;
+    float: left;
+    margin-top: 0.7em;
+    margin-left: 2em;
+    cursor: pointer;
+}

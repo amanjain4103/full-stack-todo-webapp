@@ -1,0 +1,82 @@
+.containertop{
+    width: 100vw;
+    height: 100vh; 
+    background: #ffafbd;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffafbd, #ffc3a0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffafbd, #ffc3a0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.containertop div{
+    margin: 3%;
+    
+}
+
+.containertop form{
+    background-color: rgb(204, 43, 94,0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    width: 25rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 0.4rem;
+    position: relative;
+    top: 6rem;
+    left: 30%;
+}
+
+.containertop form div div label{
+    font-size: 120%;
+    font-weight: 200;
+}
+
+.containertop form div div input{
+    border: none;
+    margin-top: 2px;
+    padding: 0.5rem;
+    font-size: 120%;
+    box-shadow:1px 1px 3px black;
+    outline: none;
+}
+
+.containertop form div div button{
+    border: none;
+    padding: 0.8rem;
+    width: 12rem;
+    margin: 10%;
+}
+
+.containertop form div div button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.containertop form div div a{
+    text-decoration: none;
+    font-size: 100%;
+    border:3px solid white;
+    color: black;
+    font-weight: 400;
+    padding: 0.8rem;
+    transition: 0.3s;
+}
+
+.containertop form div div a:hover{
+    transform: translate(2);
+    color: white;
+    background-color: black;
+    border:3px solid black;
+    
+}
+
+.containertop form div div a span{
+    margin-right: 15px;
+    margin-left: 4px;   
+}
+
+.loading{
+    position: relative;
+    top: 0.2rem;
+    left:4.2rem;
+}

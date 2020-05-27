@@ -1,0 +1,78 @@
+.sider{
+    background-color: #ecf0f1;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 25vw;
+    min-height: 96vh;
+    overflow-y: scroll;
+    box-shadow: 2px 0px 4px #bdc3c7;
+    text-align: center;
+}
+
+.addprojectbtn{
+    background-color: #6c5ce7;
+    
+    position: relative;
+    top: 90px;
+
+    font-size: 140%;
+    border: none;
+    width: 20vw;
+    height: 3em;
+    transition: 0.3s;
+    margin-bottom: 2em;
+    
+}
+
+.addprojectbtn:hover{
+    cursor: pointer;
+    transform: translate(12);
+    background-color: #fff;
+    color: #6c5ce7;
+    border: 3px solid #6c5ce7;
+}
+
+.projectname{
+    background-color: #44bd32;
+    
+    position: relative;
+    top: 100px;
+
+    font-size: 140%;
+    border: none;
+    margin-top: 0.5em;
+    width: 20vw;
+    height: 3em;
+    transition: 0.3s;
+}
+
+.projectname:hover{
+    cursor: pointer;
+    transform: translate(12);
+    background-color: #fff;
+    color: black;
+    border: 3px solid #4cd137;
+}
+
+.projectname span{
+    float: right;
+    margin-right: 5%;
+    transition: 0.2s;
+    height: 30%;
+}
+
+
+.projectname span:hover{
+    transform: scale(1.5);
+    color: red;
+    float: right;
+    margin-right: 5%;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  

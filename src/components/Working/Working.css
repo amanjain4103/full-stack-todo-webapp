@@ -1,0 +1,166 @@
+.working{
+    /* background-color: #ff6b81; */
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+}
+
+
+.taskadder{
+    /* background-color: ; */
+    padding: 3px;
+    margin-top: 2.5em;
+    width: 65%;
+    height: 1.6em;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    font-size: 160%;
+    margin-left: 2em;
+}
+
+.working form button{
+    background-color: #ff6b81;
+    border: none;
+    font-size: 160%;
+    font-weight: 800;
+    width: 3rem;
+    height: 1.8em;
+    box-shadow: 1px 1px 5px black;
+    position: relative;
+    top: 0.08em;
+    left: 0.2em;
+    cursor: pointer;
+    transition: 0.1s;
+    z-index: 100;
+}
+
+.working form button:hover{
+    background-color: white;
+    color: #ff6b81;
+    border: 3px solid #ff6b81;
+    transform: translate(1);
+}
+.taskprint{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 8rem;
+    left: auto;
+    left: auto;   
+    width:40%;
+    height: 70%; 
+    margin-left: 3em;
+    overflow-y: scroll;
+}
+.taskprint button{
+    background-color: #FFC312;
+    border: none;
+    margin-bottom: 0.2em;
+    font-size: 130%;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.trash{
+    float: left;
+    margin-right: 7px;
+    transition: 0.2s;
+}
+
+.trash:hover{
+    float: left;
+    transform: scale(1.5);
+    color: red;
+    cursor: pointer;
+}
+.checksquare{
+    float: left;
+    margin-right: 14px;
+    transition: 0.2s;
+}
+
+.checksquare:hover{
+    transform: scale(1.5);
+    color: #6c5ce7;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .taskprint{
+        /* background-color: aqua; */
+        position: absolute;
+        top: 12rem;
+
+        width:40%;
+        height: 70%; 
+        margin-left: 1em;
+        overflow-y: scroll;
+    }
+
+    .working form button{
+        background-color: #ff6b81;
+        border: none;
+        font-size: 160%;
+        font-weight: 800;
+        width: 8rem;
+        height: 1.8em;
+        box-shadow: 1px 1px 5px black;
+        position: relative;
+        top: 0.5em;
+        left: 2.2em;
+        cursor: pointer;
+        transition: 0.1s;
+        z-index: 100;
+    }
+    
+    .working form button:hover{
+        background-color: white;
+        color: #ff6b81;
+        border: 3px solid #ff6b81;
+        transform: translate(1);
+    }
+  }
+
+  @media only screen and (max-width: 860px){
+    .taskprint{
+        /* background-color: aqua; */
+        position: absolute;
+        top: 12rem;
+
+        width:40%;
+        height: 70%; 
+        margin-left: 1em;
+        overflow-y: scroll;
+    }
+
+    .working form button{
+        background-color: #ff6b81;
+        border: none;
+        font-size: 160%;
+        font-weight: 800;
+        width: 8rem;
+        height: 1.8em;
+        box-shadow: 1px 1px 5px black;
+        position: relative;
+        top: 0.5em;
+        left: 2.2em;
+        cursor: pointer;
+        transition: 0.1s;
+        z-index: 100;
+    }
+    
+    .working form button:hover{
+        background-color: white;
+        color: #ff6b81;
+        border: 3px solid #ff6b81;
+        transform: translate(1);
+    }
+  }
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
