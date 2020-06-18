@@ -39,7 +39,7 @@ class Loginpage extends React.Component{
             "password":this.state.password
         }
 
-        fetch("https://warm-fortress-73778.herokuapp.com/login",{
+        fetch("https://sleepy-bayou-07933.herokuapp.com/login",{
             headers:{
                 'Content-Type':'application/json'
             },
@@ -92,7 +92,7 @@ class Loginpage extends React.Component{
             isLoading:true
         })
 
-        fetch("https://warm-fortress-73778.herokuapp.com/login",{
+        fetch("https://sleepy-bayou-07933.herokuapp.com/login",{
             headers:{
                 'Content-Type':'application/json'
             },

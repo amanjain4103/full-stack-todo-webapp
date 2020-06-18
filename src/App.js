@@ -50,7 +50,7 @@ class App extends React.Component{
       this.setState({
         isSaveLoading:true
       })
-      fetch("https://warm-fortress-73778.herokuapp.com/update",{
+      fetch("https://sleepy-bayou-07933.herokuapp.com/update",{
           headers:{
               'Content-Type':'application/json'
           },

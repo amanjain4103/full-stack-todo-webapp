@@ -50,7 +50,7 @@ class Registerpage extends React.Component{
             "gmail":this.state.gmail,
             "password":this.state.password
         }
-        fetch("https://warm-fortress-73778.herokuapp.com/register",{
+        fetch("https://sleepy-bayou-07933.herokuapp.com/register",{
             headers:{
                 'Content-Type':'application/json'
             },
@@ -96,7 +96,7 @@ class Registerpage extends React.Component{
             isLoading:true
         })
 
-        fetch("https://warm-fortress-73778.herokuapp.com/register",{
+        fetch("https://sleepy-bayou-07933.herokuapp.com/register",{
             headers:{
                 'Content-Type':'application/json'
             },
