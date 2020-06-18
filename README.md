@@ -1,7 +1,7 @@
 # todo-frontend
 
 ## Some Visuals 
-![Home Page](https://drive.google.com/file/d/17DtnGvlF-iMMaA0q-pjHtrdmO8EeHgM6/view?usp=sharing)
+![Home Page](https://drive.google.com/uc?export=view&id=1PAeupg0Wu7-E1cKPvLDJ7cMkULw536jD)
 
 ![Register Page](https://drive.google.com/file/d/1oPtXGduR6vtdEajMdGYYa9D-6WcJ-ndG/view?usp=sharing)
 
