@@ -3,9 +3,9 @@
 ## Some Visuals 
 ![Home Page](https://drive.google.com/uc?export=view&id=1PAeupg0Wu7-E1cKPvLDJ7cMkULw536jD)
 
-![Register Page](https://drive.google.com/file/d/1oPtXGduR6vtdEajMdGYYa9D-6WcJ-ndG/view?usp=sharing)
+![Register Page](https://drive.google.com/uc?export=view&id=1oPtXGduR6vtdEajMdGYYa9D-6WcJ-ndG)
 
-![Login Page](https://drive.google.com/file/d/1FXq010yM3a1_tOheNoETWgAHGofC7xhL/view?usp=sharing)
+![Login Page](https://drive.google.com/uc?export=view&id=1FXq010yM3a1_tOheNoETWgAHGofC7xhL)
 
 ## Special Features
 1. Clean UI
